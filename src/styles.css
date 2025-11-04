@@ -1,0 +1,41 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  padding: 20px;
+}
+
+/* Search Bar */
+input[type="text"] {
+  transition: all 0.2s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px #c7d2fe;
+}
+
+/* Book Cards */
+img {
+  transition: transform 0.2s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  margin-top: 40px;
+}
